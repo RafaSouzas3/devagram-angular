@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ButtonComponent } from './button/button.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { UploadImagemComponent } from './upload-imagem/upload-imagem.component';
+import { InputPublicoComponent } from './publico/input-publico/input-publico.component';
 
 
 
@@ -10,7 +11,8 @@ import { UploadImagemComponent } from './upload-imagem/upload-imagem.component';
   declarations: [
     ButtonComponent,
     AvatarComponent,
-    UploadImagemComponent
+    UploadImagemComponent,
+    InputPublicoComponent
   ],
   imports: [
     CommonModule
