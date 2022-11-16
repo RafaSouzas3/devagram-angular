@@ -1,6 +1,7 @@
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ButtonComponent } from './button/button.component';
+import { BotaoComponent } from './button/button.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { UploadImagemComponent } from './upload-imagem/upload-imagem.component';
 import { InputPublicoComponent } from './publico/input-publico/input-publico.component';
@@ -9,13 +10,20 @@ import { InputPublicoComponent } from './publico/input-publico/input-publico.com
 
 @NgModule({
   declarations: [
-    ButtonComponent,
+    BotaoComponent,
     AvatarComponent,
     UploadImagemComponent,
     InputPublicoComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
+  ],
+  exports: [
+    BotaoComponent,
+    AvatarComponent,
+    UploadImagemComponent,
+    InputPublicoComponent
   ]
 })
-export class SharedModule { }
+export class CompartilhadoModule { }

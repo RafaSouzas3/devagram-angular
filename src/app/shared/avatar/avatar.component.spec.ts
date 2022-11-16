@@ -11,7 +11,9 @@ describe('AvatarComponent', () => {
       declarations: [ AvatarComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(AvatarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
