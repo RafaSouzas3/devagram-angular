@@ -1,4 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
 @import './assets/fonts/fonts.scss';
 
 :root {
@@ -19,5 +18,19 @@
     --branco: #FFF;
     --vermelho: #FF0000;
 
-    $desktopBreakpoint: 992px;
+    --breakpointDesktop: 992px;
+}
+* {
+    font-family: var(--fontRegular);
+    font-size: 14px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.oculto {
+    display: none !important;
 }

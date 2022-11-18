@@ -5,6 +5,8 @@ import { BotaoComponent } from './button/button.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { UploadImagemComponent } from './upload-imagem/upload-imagem.component';
 import { InputPublicoComponent } from './publico/input-publico/input-publico.component';
+import { PaginaPublicaComponent } from './publico/pagina-publica/pagina-publica.component';
+import { RodapePaginaPublicaComponent } from './publico/rodape-pagina-publica/rodape-pagina-publica.component';
 
 
 
@@ -13,11 +15,13 @@ import { InputPublicoComponent } from './publico/input-publico/input-publico.com
     BotaoComponent,
     AvatarComponent,
     UploadImagemComponent,
-    InputPublicoComponent
+    InputPublicoComponent,
+    PaginaPublicaComponent,
+    RodapePaginaPublicaComponent
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
   ],
   exports: [
     BotaoComponent,
